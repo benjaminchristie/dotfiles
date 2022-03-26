@@ -1,6 +1,7 @@
 *.alpha:        1.0
 !*.font:         Droid Sans Mono:pixelsize=18:antialias=true:autohint=true
-*.font:         Ubuntu Mono:pixelsize=18:antialias=true:autohint=true
+!*.font:         FantasqueSansMono Nerd Font:pixelsize=18:antialias=true:autohint=true
+*.font:         Source Code Variable:pixelsize=14:antialias=true:autohint=true:style=Medium
 ! special
 *.foreground:   #ffffff
 *.background:   #1e1e1e
