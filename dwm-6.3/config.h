@@ -101,7 +101,7 @@ static Key keys[] = {
 	{ 0, XF86XK_MonBrightnessDown, spawn, {.v = brdowncmd} },
 	{ MODKEY|ShiftMask, XK_l, spawn, {.v = slockcmd} },
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
-	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
+	//{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY|ShiftMask,             XK_s,      spawn,          {.v = shotcmd } },
 	{ MODKEY|Mod4Mask|ShiftMask,    XK_Return, spawn,          {.v = firefoxcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },

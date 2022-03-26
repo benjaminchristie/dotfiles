@@ -87,8 +87,8 @@ static const char *firefoxcmd[]  = { "firefox", NULL };
 static const char *mutecmd[] = { "pactl", "set-sink-mute", "0", "toggle", NULL };
 static const char *volupcmd[] = { "pactl", "set-sink-volume", "0", "+5%", NULL };
 static const char *voldowncmd[] = { "pactl", "set-sink-volume", "0", "-5%", NULL };
-static const char *brupcmd[] = { "xbacklight", "-inc", "10", NULL };
-static const char *brdowncmd[] = { "xbacklight", "-dec", "10", NULL };
+static const char *brupcmd[] = { "xbacklight", "-inc", "5", NULL };
+static const char *brdowncmd[] = { "xbacklight", "-dec", "5", NULL };
 static const char *shotcmd[] = {"shot", NULL};
 static const char *slockcmd[] = {"slock", NULL};
 // previous 5 lines were for volume and backlight control
