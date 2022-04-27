@@ -1,2 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/benjamin/vac-arm-code'
+let g:netrw_dirhist_0='/home/benjamin/catkin_ws/src/roboteq_control/src'
+let g:netrw_dirhist_9='/home/benjamin/catkin_ws/src/roboteq_control/rviz'
+let g:netrw_dirhist_8='/home/benjamin/catkin_ws/src/roboteq_control'
+let g:netrw_dirhist_7='/home/benjamin/school/CS3754/hw3/HW3nodeStarter/routes'
+let g:netrw_dirhist_6='/home/benjamin/school/CS3754/hw3/HW3nodeStarter'
+let g:netrw_dirhist_5='/home/benjamin/school/CS3754/hw3/HW3starterAngular/src/app/_services'
+let g:netrw_dirhist_4='/home/benjamin/school/ME4824/hri-repo/hri_ws/src/scara'
+let g:netrw_dirhist_3='/home/benjamin/.tastyworks/desktop'
+let g:netrw_dirhist_2='/home/benjamin/.tastyworks'

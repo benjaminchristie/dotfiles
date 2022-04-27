@@ -1,0 +1,9 @@
+{
+    "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/14.0.0/clangd_14.0.0/bin/clangd",
+    "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "html"],
+    "markdownlint.config": {
+        "default": true,
+        "line_length": false
+    },
+    "python.pythonPath": "python3"
+}

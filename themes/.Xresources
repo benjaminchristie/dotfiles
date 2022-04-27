@@ -1,10 +1,11 @@
 *.alpha:        1.0
 !*.font:         Droid Sans Mono:pixelsize=18:antialias=true:autohint=true
 !*.font:         FantasqueSansMono Nerd Font:pixelsize=18:antialias=true:autohint=true
-*.font:         Source Code Variable:pixelsize=14:antialias=true:autohint=true:style=Medium
+*.font:         Source Code Pro:pixelsize=18:antialias=true:autohint=true:style=Medium
 ! special
-*.foreground:   #ffffff
+*.foreground:   #e3e3e3
 *.background:   #1e1e1e
+!*.background:   #101010
 *.cursorColor:  #ffffff
 
 ! black
@@ -17,7 +18,7 @@
 
 ! green
 *.color2:       #4e9a06
-*.color10:      #8ae234
+*.color10:      #4ccc2b
 
 ! yellow
 *.color3:       #c4a000
@@ -28,12 +29,12 @@
 *.color12:      #729fcf
 
 ! magenta
-*.color5:       #95669d
-*.color13:      #ad7fa8
+*.color5:       #ad7fa8
+*.color13:      #dba0d5
 
 ! cyan
 *.color6:       #06989a
-*.color14:      #34e2e2
+*.color14:      #06989a
 
 ! white
 *.color7:       #d3d7cf

@@ -65,13 +65,16 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ run_command, "[IDLE %s]    ", "xprintidle | awk '{printf \"%.0f\", ($1/1000)}'"},
-	{ run_command, "[VOL  %s]    ", "pactl list sinks | grep \"Volume: front-left\" | awk '{print $5}'" },
-	{ netspeed_rx, "[RX  %sB/s]    ",   "wlp2s0" },
-	{ battery_perc, "[POW  %s%%]     ",  "BAT0" },
-	{ cpu_freq,  "[CPU  %sHz]     ", NULL },
-	{ ram_used,  "[RAM  %sB]     ", NULL },
-	{ disk_free, "[FREE  %s]    ", "/"  },
+	{ netspeed_rx, "[RX %sB/s]  ",   "wlp2s0" },
+	{ temp, "[TMP %s°C]  ", "/sys/class/thermal/thermal_zone0/temp" },
+    // { run_command, "[IDLE %s]  ", "xprintidle | awk '{printf \"%.0f\", ($1/1000)}'"},
+	{ run_command, "[VOL %s]  ", "pactl list sinks | grep \"Volume: front-left\" | awk '{print $5}'" },
+	{ battery_perc, "[POW %s%%]  ",  "BAT0" },
+	{ battery_remaining, "[REM %s]  ",  "BAT0" },
+	{ cpu_perc,  "[CPU %s%]  ", NULL },
+	{ ram_used,  "[RAM %sB]  ", NULL },
+	{ disk_free, "[FREE %s]  ", "/"  },
+	{ kernel_release, "[VER %s]  ", NULL },
 	{ datetime, "%s",           "%F %T" },
 	
 
