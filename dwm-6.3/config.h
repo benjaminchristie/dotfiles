@@ -1,6 +1,14 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
+// systray
+
+static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
+static const unsigned int systrayonleft = 1;   	/* 0: systray in the right corner, >0: systray on left of status text */
+static const unsigned int systrayspacing = 2;   /* systray spacing */
+static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
+static const int showsystray        = 1;     /* 0 means no systray */
+// end systray
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 8;       /* snap pixel */
 static const unsigned int gappih    = 6;       /* 12, horiz inner gap between windows */
@@ -24,7 +32,7 @@ static const char col_yel[]         = "#c4a000";
 static const char col_black[]       = "#000000";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_grn   },
+	[SchemeNorm] = { col_gray3, col_gray1, col_gray1   },
 	[SchemeSel]  = { col_gray4, col_grn,  col_grn   },
 };
 
